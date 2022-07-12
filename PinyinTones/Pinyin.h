@@ -25,6 +25,8 @@ namespace PinyinVowels
 {
     static const WCHAR uu0 = 0x00FC;
     static const WCHAR UU0 = 0x00DC;
+    static const WCHAR ee0 = [TO BE ADDED]
+    static const WCHAR EE0 = [TO BE ADDED]
 
     static const int NUM_VOWELS = 60;
     static const WCHAR VOWELS[NUM_VOWELS] =
@@ -35,12 +37,18 @@ namespace PinyinVowels
         'o', 0x014D, 0x00F3, 0x01D2, 0x00F2,
         'u', 0x016B, 0x00FA, 0x01D4, 0x00F9,
         uu0, 0x01D6, 0x01D8, 0x01DA, 0x01DC,
+        ee0, [TO BE ADDED]
+        'm', [TO BE ADDED]
+        'n', [TO BE ADDED]
         'A', 0x0100, 0x00C1, 0x01CD, 0x00C0,
         'E', 0x0112, 0x00C9, 0x011A, 0x00C8,
         'I', 0x012A, 0x00CD, 0x01CF, 0x00CC,
         'O', 0x014C, 0x00D3, 0x01D1, 0x00D2,
         'U', 0x016A, 0x00DA, 0x01D3, 0x00D9,
         UU0, 0x01D5, 0x01D7, 0x01D9, 0x01DB
+        EE0, [TO BE ADDED]
+        'M', [TO BE ADDED]
+        'N', [TO BE ADDED]
     };
 }
 
